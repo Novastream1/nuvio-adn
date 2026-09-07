@@ -1,0 +1,38 @@
+[
+  {
+    "id": "collections.streaming",
+    "title": "🎬 Streaming",
+    "showAllTab": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "folders": [
+      {
+        "id": "collections.streaming.adn",
+        "title": "ADN",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.movie.streaming.adn",
+            "type": "movie",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.streaming.adn",
+            "type": "series",
+            "genre": "None"
+          }
+        ],
+        "coverEmoji": "🎬",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Novastream1/nuvio-adn@main/adn-cover.webp",
+        "focusGifUrl": "https://cdn.jsdelivr.net/gh/Novastream1/nuvio-adn@main/adn-focused.webp",
+        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/Novastream1/nuvio-adn@main/adn-title.png",
+        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/Novastream1/nuvio-adn@main/adn-backdrop.webp"
+      }
+    ]
+  }
+]

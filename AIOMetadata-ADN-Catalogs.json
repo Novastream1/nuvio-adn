@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "catalogs": [
+    {
+      "id": "tmdb.discover.movie.streaming.adn",
+      "type": "movie",
+      "name": "🎬 ADN",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": false,
+            "watch_region": "FR",
+            "with_watch_providers": "415",
+            "vote_count.gte": 0,
+            "with_release_type": "4|5|6"
+          },
+          "formState": {
+            "catalogName": "🎬 ADN",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "catalogType": "movie",
+            "includeAdult": false,
+            "releasedOnly": true,
+            "watchRegion": "FR",
+            "watchProviders": [
+              {
+                "id": 415,
+                "label": "Animation Digital Network"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteCountMin": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "tmdb.discover.series.streaming.adn",
+      "type": "series",
+      "name": "🎬 ADN",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": false,
+            "watch_region": "FR",
+            "with_watch_providers": "415",
+            "vote_count.gte": 0,
+            "with_status": "0|3|4|5"
+          },
+          "formState": {
+            "catalogName": "🎬 ADN",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "catalogType": "series",
+            "includeAdult": false,
+            "releasedOnly": true,
+            "watchRegion": "FR",
+            "watchProviders": [
+              {
+                "id": 415,
+                "label": "Animation Digital Network"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteCountMin": 0
+          }
+        }
+      }
+    }
+  ]
+}
